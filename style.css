@@ -16,22 +16,24 @@ h1 {
     font-size: 60px;
 }
 
+h1 {
+  border-style: solid;
+  border-color: rgb(0, 0, 50);
+}
+
+div {
+  margin-top: 50px;
+  margin-bottom: 100px;
+  
+}
+
 h2 {
     color: rgb(0, 0, 50);
 }
 
-h1 {
-    border: 2px;
-    border-style: solid;
-    border-color: (0, 0, 50);
-    border-radius: 5px;
-}
-
 h2 {
-    border: 2px;
-    border-style: solid;
-    border-color: (0, 0, 50);
-    border-radius: 5px;
+  font-size: 45px;
+  text-align: center;
 }
 
 p {
@@ -43,3 +45,8 @@ p {
 
 h1 {
     font-family: "Courier New", Courier, monospace
+}
+
+h2 {
+    font-family: "Courier New", Courier, monospace
+}
